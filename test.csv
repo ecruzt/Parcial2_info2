@@ -1,0 +1,335 @@
+diagnosis,Age,Sex,MMSE,FAB,multiplicacion
+Healthy ageing,86,F,27.0,14.0,2322.0
+Healthy ageing,79,F,28.0,10.0,2212.0
+Healthy ageing,80,F,27.0,9.0,2160.0
+Healthy ageing,82,F,28.0,9.0,2296.0
+Healthy ageing,86,F,26.0,13.0,2236.0
+Healthy ageing,81,F,28.0,17.0,2268.0
+Healthy ageing,88,M,29.0,14.0,2552.0
+Healthy ageing,53,M,30.0,16.0,1590.0
+Healthy ageing,79,F,29.0,12.0,2291.0
+Healthy ageing,70,M,30.0,16.0,2100.0
+Healthy ageing,69,M,27.0,16.0,1863.0
+Healthy ageing,69,F,30.0,15.0,2070.0
+Healthy ageing,69,M,30.0,12.0,2070.0
+Healthy ageing,74,F,30.0,14.0,2220.0
+Healthy ageing,76,M,30.0,15.0,2280.0
+Healthy ageing,70,M,30.0,15.0,2100.0
+Healthy ageing,74,F,29.0,17.0,2146.0
+Healthy ageing,65,F,,,
+Healthy ageing,74,M,29.0,18.0,2146.0
+Healthy ageing,66,F,30.0,13.0,1980.0
+Healthy ageing,77,F,29.0,14.0,2233.0
+Healthy ageing,86,M,29.0,15.0,2494.0
+Healthy ageing,81,F,29.0,16.0,2349.0
+Healthy ageing,71,F,,,
+Healthy ageing,87,M,28.0,12.0,2436.0
+Healthy ageing,68,F,27.0,17.0,1836.0
+Healthy ageing,69,M,30.0,17.0,2070.0
+Healthy ageing,43,M,30.0,17.0,1290.0
+Healthy ageing,83,M,30.0,10.0,2490.0
+Healthy ageing,79,F,29.0,14.0,2291.0
+Healthy ageing,71,M,29.0,16.0,2059.0
+Healthy ageing,83,F,30.0,15.0,2490.0
+Healthy ageing,65,M,30.0,17.0,1950.0
+Healthy ageing,87,F,28.0,13.0,2436.0
+Healthy ageing,76,M,30.0,15.0,2280.0
+Healthy ageing,80,M,29.0,14.0,2320.0
+Healthy ageing,76,M,28.0,9.0,2128.0
+Healthy ageing,77,F,30.0,13.0,2310.0
+Healthy ageing,78,F,29.0,16.0,2262.0
+Healthy ageing,70,F,28.0,15.0,1960.0
+Healthy ageing,69,F,29.0,13.0,2001.0
+Healthy ageing,76,F,25.0,13.0,1900.0
+Healthy ageing,43,F,29.0,17.0,1247.0
+Healthy ageing,85,F,29.0,15.0,2465.0
+Healthy ageing,62,F,30.0,17.0,1860.0
+Healthy ageing,77,F,28.0,16.0,2156.0
+Healthy ageing,80,F,29.0,13.0,2320.0
+Healthy ageing,70,F,30.0,17.0,2100.0
+Healthy ageing,77,F,28.0,13.0,2156.0
+Healthy ageing,53,M,30.0,16.0,1590.0
+Healthy ageing,50,F,29.0,15.0,1450.0
+Healthy ageing,81,F,29.0,15.0,2349.0
+Healthy ageing,77,F,30.0,14.0,2310.0
+Healthy ageing,49,F,29.0,15.0,1421.0
+Healthy ageing,64,M,30.0,14.0,1920.0
+Healthy ageing,74,F,28.0,16.0,2072.0
+Healthy ageing,63,M,25.0,16.0,1575.0
+Healthy ageing,68,M,,,
+Healthy ageing,78,M,,,
+Healthy ageing,79,F,,,
+Healthy ageing,80,F,,,
+Healthy ageing,79,F,28.0,11.0,2212.0
+MCI,71,F,27.0,14.0,1917.0
+MCI,79,F,28.0,13.0,2212.0
+MCI,80,F,28.0,11.0,2240.0
+MCI,73,M,23.0,14.0,1679.0
+MCI,76,F,29.0,12.0,2204.0
+MCI,75,M,29.0,13.0,2175.0
+MCI,77,M,29.0,12.0,2233.0
+MCI,74,F,28.0,14.0,2072.0
+MCI,71,F,26.0,13.0,1846.0
+MCI,82,M,23.0,13.0,1886.0
+MCI,81,F,28.0,13.0,2268.0
+MCI,82,F,25.0,10.0,2050.0
+MCI,79,F,30.0,11.0,2370.0
+MCI,68,M,26.0,15.0,1768.0
+MCI,82,F,30.0,14.0,2460.0
+MCI,76,F,23.0,11.0,1748.0
+MCI,76,F,27.0,12.0,2052.0
+MCI,74,F,24.0,14.0,1776.0
+MCI,77,M,25.0,11.0,1925.0
+MCI,78,F,27.0,13.0,2106.0
+MCI,67,F,29.0,15.0,1943.0
+MCI,63,F,28.0,16.0,1764.0
+MCI,85,F,25.0,7.0,2125.0
+MCI,76,F,27.0,14.0,2052.0
+MCI,72,F,29.0,13.0,2088.0
+MCI,73,M,25.0,13.0,1825.0
+MCI,79,F,23.0,14.0,1817.0
+MCI,73,M,29.0,15.0,2117.0
+MCI,72,M,26.0,13.0,1872.0
+MCI,52,M,28.0,15.0,1456.0
+MCI,79,F,28.0,11.0,2212.0
+MCI,80,F,23.0,9.0,1840.0
+MCI,77,F,28.0,14.0,2156.0
+MCI,80,M,29.0,12.0,2320.0
+MCI,67,F,,,
+MCI,76,M,,,
+MCI,84,M,,,
+MCI,83,F,29.0,12.0,2407.0
+MCI,78,M,27.0,18.0,2106.0
+MCI,73,F,28.0,16.0,2044.0
+MCI,62,F,26.0,17.0,1612.0
+MCI,77,M,26.0,9.0,2002.0
+MCI,74,F,28.0,14.0,2072.0
+MCI,74,M,28.0,13.0,2072.0
+MCI,77,F,27.0,13.0,2079.0
+MCI,87,F,29.0,12.0,2523.0
+MCI,64,F,29.0,15.0,1856.0
+MCI,78,M,30.0,14.0,2340.0
+MCI,78,M,27.0,14.0,2106.0
+MCI,79,F,29.0,14.0,2291.0
+MCI,76,F,23.0,10.0,1748.0
+MCI,81,F,27.0,13.0,2187.0
+MCI,74,F,27.0,12.0,1998.0
+MCI,75,F,29.0,11.0,2175.0
+MCI,77,M,25.0,10.0,1925.0
+MCI,68,M,,,
+MCI,71,F,30.0,18.0,2130.0
+MCI,72,M,21.0,13.0,1512.0
+MCI,76,M,28.0,11.0,2128.0
+MCI,86,M,30.0,12.0,2580.0
+MCI,85,F,24.0,13.0,2040.0
+MCI,60,F,29.0,14.0,1740.0
+Dementia,66,M,19.0,8.0,1254.0
+Dementia,88,F,23.0,9.0,2024.0
+Dementia,81,M,18.0,7.0,1458.0
+Dementia,89,M,19.0,10.0,1691.0
+Dementia,86,F,23.0,13.0,1978.0
+Dementia,82,F,24.0,11.0,1968.0
+Dementia,80,F,22.0,14.0,1760.0
+Dementia,84,F,22.0,13.0,1848.0
+Dementia,87,F,26.0,10.0,2262.0
+Dementia,81,M,21.0,8.0,1701.0
+Dementia,91,F,15.0,5.0,1365.0
+Dementia,85,F,28.0,11.0,2380.0
+Dementia,85,F,20.0,11.0,1700.0
+Dementia,64,M,17.0,10.0,1088.0
+Dementia,75,M,23.0,12.0,1725.0
+Dementia,84,F,21.0,11.0,1764.0
+Dementia,78,M,2.0,4.0,156.0
+Dementia,85,F,20.0,8.0,1700.0
+Dementia,80,F,28.0,11.0,2240.0
+Dementia,75,M,18.0,7.0,1350.0
+Dementia,77,M,19.0,10.0,1463.0
+Dementia,69,F,,,
+Dementia,88,M,15.0,6.0,1320.0
+Dementia,74,F,21.0,8.0,1554.0
+Dementia,88,F,28.0,12.0,2464.0
+Dementia,72,M,28.0,9.0,2016.0
+Dementia,78,M,9.0,7.0,702.0
+Dementia,70,M,22.0,8.0,1540.0
+Dementia,74,F,26.0,10.0,1924.0
+Dementia,83,M,8.0,3.0,664.0
+Dementia,89,M,19.0,10.0,1691.0
+Dementia,89,F,20.0,12.0,1780.0
+Dementia,79,M,21.0,10.0,1659.0
+Dementia,78,M,21.0,9.0,1638.0
+Dementia,84,M,25.0,12.0,2100.0
+Dementia,74,F,27.0,11.0,1998.0
+Dementia,72,F,17.0,11.0,1224.0
+Dementia,76,F,14.0,3.0,1064.0
+Dementia,67,M,26.0,13.0,1742.0
+Dementia,80,F,28.0,8.0,2240.0
+Dementia,83,F,19.0,5.0,1577.0
+Dementia,87,M,12.0,9.0,1044.0
+Dementia,59,F,11.0,5.0,649.0
+Dementia,80,F,25.0,12.0,2000.0
+Dementia,76,F,,,
+Dementia,76,F,,,
+Dementia,82,F,24.0,11.0,1968.0
+Dementia,76,M,18.0,12.0,1368.0
+Dementia,84,F,16.0,6.0,1344.0
+Dementia,74,M,21.0,14.0,1554.0
+Dementia,72,M,16.0,8.0,1152.0
+Dementia,81,F,23.0,13.0,1863.0
+Dementia,89,F,14.0,5.0,1246.0
+Dementia,82,M,29.0,12.0,2378.0
+Dementia,85,F,21.0,9.0,1785.0
+Dementia,76,F,29.0,14.0,2204.0
+Dementia,82,M,10.0,3.0,820.0
+Dementia,77,F,24.0,7.0,1848.0
+Dementia,76,M,23.0,9.0,1748.0
+Dementia,84,M,23.0,8.0,1932.0
+Dementia,83,M,25.0,13.0,2075.0
+Dementia,90,F,18.0,8.0,1620.0
+Dementia,72,F,10.0,8.0,720.0
+Dementia,73,M,21.0,6.0,1533.0
+Dementia,68,F,16.0,11.0,1088.0
+Dementia,82,F,13.0,7.0,1066.0
+Dementia,83,F,21.0,9.0,1743.0
+Dementia,76,F,28.0,14.0,2128.0
+Dementia,86,M,22.0,10.0,1892.0
+Dementia,78,F,26.0,11.0,2028.0
+Dementia,79,F,26.0,15.0,2054.0
+Dementia,82,F,25.0,15.0,2050.0
+Dementia,78,M,17.0,14.0,1326.0
+Dementia,84,M,20.0,7.0,1680.0
+Dementia,78,F,23.0,14.0,1794.0
+Dementia,76,F,10.0,6.0,760.0
+Dementia,71,F,18.0,8.0,1278.0
+Dementia,89,M,10.0,3.0,890.0
+Dementia,88,M,20.0,8.0,1760.0
+Dementia,77,F,23.0,13.0,1771.0
+Dementia,83,M,23.0,6.0,1909.0
+Dementia,83,F,,,
+Dementia,93,F,,,
+Dementia,86,M,,,
+Dementia,83,F,21.0,14.0,1743.0
+Dementia,71,M,20.0,11.0,1420.0
+Dementia,77,F,22.0,15.0,1694.0
+Dementia,91,M,27.0,11.0,2457.0
+Dementia,75,M,18.0,10.0,1350.0
+Dementia,76,F,25.0,7.0,1900.0
+Dementia,82,F,23.0,9.0,1886.0
+Dementia,89,M,15.0,5.0,1335.0
+Dementia,80,M,17.0,4.0,1360.0
+Dementia,77,F,23.0,8.0,1771.0
+Dementia,80,M,25.0,11.0,2000.0
+Dementia,78,F,21.0,14.0,1638.0
+Dementia,90,F,24.0,9.0,2160.0
+Dementia,77,F,23.0,12.0,1771.0
+Dementia,78,M,26.0,12.0,2028.0
+Dementia,67,M,25.0,15.0,1675.0
+Dementia,85,F,17.0,12.0,1445.0
+Dementia,74,M,13.0,7.0,962.0
+Dementia,77,M,27.0,12.0,2079.0
+Dementia,74,F,22.0,17.0,1628.0
+Dementia,84,M,25.0,11.0,2100.0
+Dementia,81,F,21.0,13.0,1701.0
+Dementia,64,M,24.0,5.0,1536.0
+Dementia,77,M,25.0,13.0,1925.0
+Dementia,82,F,12.0,11.0,984.0
+Dementia,89,F,13.0,9.0,1157.0
+Dementia,89,M,,,
+Dementia,81,M,12.0,7.0,972.0
+Dementia,74,M,23.0,9.0,1702.0
+Dementia,94,F,12.0,11.0,1128.0
+Dementia,93,F,23.0,9.0,2139.0
+Dementia,82,M,22.0,10.0,1804.0
+Dementia,79,M,,,
+Dementia,73,F,25.0,12.0,1825.0
+Dementia,73,M,21.0,10.0,1533.0
+Dementia,90,F,9.0,6.0,810.0
+Dementia,83,F,24.0,9.0,1992.0
+Dementia,89,F,16.0,6.0,1424.0
+Dementia,70,F,23.0,12.0,1610.0
+Dementia,88,M,22.0,8.0,1936.0
+Dementia,82,F,19.0,9.0,1558.0
+Dementia,75,F,,,
+Dementia,77,F,20.0,9.0,1540.0
+Dementia,72,M,19.0,10.0,1368.0
+Dementia,69,F,23.0,14.0,1587.0
+Dementia,78,F,23.0,14.0,1794.0
+Dementia,80,M,27.0,11.0,2160.0
+Dementia,77,M,20.0,9.0,1540.0
+Dementia,86,F,17.0,6.0,1462.0
+Dementia,77,F,12.0,5.0,924.0
+Dementia,77,M,11.0,6.0,847.0
+Dementia,82,F,25.0,13.0,2050.0
+Dementia,86,M,19.0,11.0,1634.0
+Dementia,80,F,25.0,8.0,2000.0
+Dementia,81,F,30.0,17.0,2430.0
+Dementia,85,F,12.0,8.0,1020.0
+Dementia,82,F,23.0,16.0,1886.0
+Dementia,88,M,18.0,13.0,1584.0
+Dementia,79,F,20.0,10.0,1580.0
+Dementia,84,F,22.0,10.0,1848.0
+Dementia,83,M,13.0,7.0,1079.0
+Dementia,87,F,17.0,10.0,1479.0
+Dementia,82,F,16.0,10.0,1312.0
+Dementia,86,F,22.0,11.0,1892.0
+Dementia,86,F,,,
+Dementia,81,M,,,
+Dementia,89,F,,,
+Dementia,91,F,,,
+Dementia,74,F,,,
+Dementia,88,F,23.0,11.0,2024.0
+Dementia,86,M,21.0,14.0,1806.0
+Dementia,70,M,24.0,10.0,1680.0
+Dementia,88,F,23.0,9.0,2024.0
+Dementia,84,F,20.0,9.0,1680.0
+Dementia,77,F,24.0,10.0,1848.0
+Dementia,78,F,24.0,12.0,1872.0
+Dementia,81,F,14.0,5.0,1134.0
+Dementia,71,M,22.0,5.0,1562.0
+Dementia,79,F,19.0,9.0,1501.0
+Dementia,82,M,25.0,10.0,2050.0
+Dementia,73,F,27.0,4.0,1971.0
+Dementia,91,M,25.0,13.0,2275.0
+Dementia,74,M,19.0,5.0,1406.0
+Dementia,82,M,9.0,6.0,738.0
+Dementia,74,F,3.0,3.0,222.0
+Dementia,75,M,23.0,10.0,1725.0
+Dementia,72,F,9.0,8.0,648.0
+Dementia,74,F,23.0,9.0,1702.0
+Dementia,82,F,12.0,8.0,984.0
+Dementia,76,F,23.0,10.0,1748.0
+Dementia,89,M,19.0,10.0,1691.0
+Dementia,83,F,15.0,10.0,1245.0
+Dementia,78,M,26.0,9.0,2028.0
+Dementia,89,M,23.0,10.0,2047.0
+Dementia,82,M,23.0,6.0,1886.0
+Dementia,78,M,20.0,11.0,1560.0
+Dementia,71,F,21.0,11.0,1491.0
+Dementia,81,M,26.0,10.0,2106.0
+Dementia,84,M,17.0,8.0,1428.0
+Dementia,62,F,19.0,11.0,1178.0
+Dementia,83,F,23.0,11.0,1909.0
+Dementia,82,M,24.0,9.0,1968.0
+Others,77,F,29.0,13.0,2233.0
+Others,70,M,27.0,13.0,1890.0
+Others,73,F,29.0,14.0,2117.0
+Others,62,M,30.0,16.0,1860.0
+Others,76,F,21.0,13.0,1596.0
+Others,84,F,,,
+Others,79,F,,,
+Others,82,M,,,
+Others,63,M,,,
+Others,71,F,18.0,12.0,1278.0
+Others,55,F,30.0,16.0,1650.0
+Others,86,M,25.0,13.0,2150.0
+Others,81,F,5.0,5.0,405.0
+Others,73,M,30.0,14.0,2190.0
+Others,83,F,30.0,14.0,2490.0
+Others,72,F,26.0,14.0,1872.0
+Others,77,F,24.0,13.0,1848.0
+Others,65,M,30.0,15.0,1950.0
+Others,76,F,30.0,13.0,2280.0
+Others,53,M,29.0,16.0,1537.0
+Others,71,F,29.0,16.0,2059.0
+Others,61,F,27.0,17.0,1647.0
+Others,51,F,17.0,10.0,867.0
+Others,66,M,30.0,16.0,1980.0

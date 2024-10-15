@@ -83,9 +83,52 @@ class Read_CSV:
             plt.title(f'Gráfico de dispersión: {columna_y} vs {columna_x}')
             plt.show()
 
-import numpy as np
-import scipy.io as sio
-import matplotlib.pyplot as plt
+    def nan_counter_and_cleanup(self):
+        if self.data is not None:
+            # Contar los valores NaN por columna
+            nan_counts = self.data.isna().sum()
+            print("Valores NaN por columna:")
+            print(nan_counts)
+
+            # Verificar si hay algún valor NaN en total
+            total_nans = nan_counts.sum()
+            if total_nans == 0:
+                print("No hay valores NaN en el DataFrame.")
+            else:
+                print(f"Total de valores NaN en el DataFrame: {total_nans}")
+
+                # Limpiar las filas que contienen valores NaN
+                self.data.dropna(inplace=True)
+                print("Filas con valores NaN eliminadas.")
+        else:
+            print("No se han cargado datos.")
+            
+    def multiplicar_columnas_y_guardar(self, col1, col2, new_file_name):
+        print("Columnas disponibles:", self.columnas_disponibles)
+        
+        if self.data is not None:
+            # Verificar que las columnas existan en el DataFrame
+            if col1 in self.data.columns and col2 in self.data.columns:
+                # Verificar que las columnas sean numéricas
+                if pd.api.types.is_numeric_dtype(self.data[col1]) and pd.api.types.is_numeric_dtype(self.data[col2]):
+                    # Crear una nueva columna como la multiplicación de col1 y col2
+                    self.data['multiplicacion'] = self.data[col1] * self.data[col2]
+
+                    # Asegurarse de que el nuevo archivo tenga la extensión .csv
+                    if not new_file_name.endswith('.csv'):
+                        new_file_name += '.csv'
+                    
+                    # Guardar el DataFrame actualizado en un nuevo archivo CSV
+                    self.data.to_csv(new_file_name, index=False)
+                    print(f"Nuevo archivo CSV creado: {new_file_name}")
+                else:
+                    print(f"Una o ambas columnas '{col1}' o '{col2}' no son numéricas.")
+            else:
+                print(f"Una o ambas columnas '{col1}' o '{col2}' no se encuentran en los datos.")
+        else:
+            print("No se han cargado datos.")
+
+
 
 class Read_Mat:
     """

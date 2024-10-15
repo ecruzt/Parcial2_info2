@@ -36,7 +36,9 @@ def menu_principal():
     5. Mostrar matrices disponibles (MAT)
     6. Graficar datos de una matriz (MAT)
     7. Graficar datos de una matriz con ruido (MAT)
-    8. Salir
+    8. Contar y limpiar valores NaN en CSV
+    9. Multiplicar columnas y guardar en nuevo CSV
+    10. Salir
     """
     lector_csv = None
     lector_mat = None
@@ -87,6 +89,21 @@ def menu_principal():
                     raise ValueError("Primero debe cargar un archivo MAT.")
 
             elif opcion == "8":
+                if lector_csv is not None:
+                    lector_csv.nan_counter_and_cleanup()
+                else:
+                    raise ValueError("Primero debe cargar un archivo CSV.")
+
+            elif opcion == "9":
+                if lector_csv is not None:
+                    col1 = input("Ingrese el nombre de la columna 1: ")
+                    col2 = input("Ingrese el nombre de la columna 2: ")
+                    new_file_name = input("Ingrese el nombre del nuevo archivo CSV: ")
+                    lector_csv.multiplicar_columnas_y_guardar(col1, col2, new_file_name)
+                else:
+                    raise ValueError("Primero debe cargar un archivo CSV.")
+
+            elif opcion == "10":
                 print("Saliendo del programa...")
                 sys.exit()
 
