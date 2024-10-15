@@ -234,31 +234,70 @@ class Read_Mat:
             plt.show()
         else:
             print(f"No se pudo graficar la matriz '{matriz_nombre}' porque no fue encontrada.")
+    
+    def graficar_ruido(self):
+        if not self.matrix_names:
+            print("No hay matrices disponibles para graficar.")
+            return
 
+        matriz_nombre = self.matrix_names[0]
+        matriz = self.get_matrix(matriz_nombre)
 
-# # Crear una instancia de la clase Read_CSV para leer un archivo
-# archivo_csv = r"C:\Users\VICTUS\Desktop\UdeA\Cuarto Semestre\Informática 2\Parcial 2\Parcial 2\cancer patient data sets.csv"
-# lector = Read_CSV(archivo_csv)
+        if matriz is not None:
+            num_canales, num_muestras, num_epocas = matriz.shape  # Se asume que la matriz tiene 3 dimensiones
 
-# # Cargar el CSV
-# lector.load_csv()
+            # Solicitar 2 canales diferentes y 1 canal para el ruido
+            try:
+                canal1 = int(input("Ingrese el número del canal 1 (0 a {}): ".format(num_canales - 1)))
+                canal2 = int(input("Ingrese el número del canal 2 (0 a {}): ".format(num_canales - 1)))
+                canal_ruido = int(input("Ingrese el número del canal para agregar ruido (0 a {}): ".format(num_canales - 1)))
 
-# # Graficar un gráfico de barras con columnas solicitadas al usuario
-# lector.graficar_barras()
+                if not all(0 <= canal < num_canales for canal in [canal1, canal2, canal_ruido]):
+                    print("Los números de canal deben estar dentro del rango válido.")
+                    return
 
-# # Graficar un gráfico de dispersión con columnas solicitadas al usuario
-# lector.graficar_dispersion()
+            except ValueError:
+                print("Entrada no válida. Asegúrese de ingresar números enteros.")
+                return
 
+            # Realizar operaciones entre los canales
+            resta = matriz[canal1, :, :] - matriz[canal2, :, :]
+            multiplicacion = matriz[canal1, :, :] * matriz[canal2, :, :]
+            ruido = np.random.normal(0, 1, size=matriz[canal_ruido, :, :].shape)  # Agregar ruido al canal seleccionado
+            canal_con_ruido = matriz[canal_ruido, :, :] + ruido
 
-# # Crear una instancia de Read_Mat con la ruta del archivo .mat
-# file_path = r'C:\Users\VICTUS\Desktop\UdeA\Cuarto Semestre\Informática 2\P2 repository\Parcial2_info2\S1.mat'
-# read_mat = Read_Mat(file_path)
+            # Crear la figura y los ejes usando gridspec
+            fig = plt.figure(figsize=(15, 10))
+            gs = fig.add_gridspec(3, 2)  # Crear una cuadrícula de 3 filas y 2 columnas
 
-# # Cargar el archivo .mat
-# read_mat.load_mat()
+            # 1. Gráfica del canal con ruido ocupando las dos filas de la izquierda
+            ax3 = fig.add_subplot(gs[0:2, 0])  # Subgráfico en las dos filas de la primera columna
+            ax3.plot(canal_con_ruido[:, 0], label='Canal con Ruido', color='blue')
+            ax3.set_title(f"Canal {canal_ruido + 1} con Ruido de '{matriz_nombre}' vs Tiempo")
+            ax3.set_xlabel("Tiempo (segundos)")
+            ax3.set_ylabel("Amplitud (Canal + Ruido)")
+            ax3.axhline(0, color='black', linewidth=0.5, linestyle='--')
+            ax3.legend(loc='upper right')
 
-# # Mostrar las matrices disponibles en el archivo
-# read_mat.display_matrices()
+            # 2. Gráfica de la multiplicación vs tiempo (en la primera fila de la derecha)
+            ax2 = fig.add_subplot(gs[0, 1])  # Subgráfico en la primera fila de la segunda columna
+            ax2.plot(multiplicacion[:, 0], label='Multiplicación', color='green')
+            ax2.set_title(f"Multiplicación entre Canales de '{matriz_nombre}' vs Tiempo")
+            ax2.set_xlabel("Tiempo (segundos)")
+            ax2.set_ylabel("Amplitud (Multiplicación)")
+            ax2.axhline(0, color='black', linewidth=0.5, linestyle='--')
+            ax2.legend(loc='upper right')
 
-# # Graficar los datos de la primera matriz disponible
-# read_mat.graficar_todos()
+            # 3. Gráfica de la resta vs tiempo (en la segunda fila de la derecha)
+            ax1 = fig.add_subplot(gs[1, 1])  # Subgráfico en la segunda fila de la segunda columna
+            ax1.plot(resta[:, 0], label='Resta', color='red')
+            ax1.set_title(f"Resta entre Canales de '{matriz_nombre}' vs Tiempo")
+            ax1.set_xlabel("Tiempo (segundos)")
+            ax1.set_ylabel("Amplitud (Resta)")
+            ax1.axhline(0, color='black', linewidth=0.5, linestyle='--')
+            ax1.legend(loc='upper right')
+
+            plt.tight_layout()  # Ajustar el diseño para que no se superpongan
+            plt.show()
+        else:
+            print(f"No se pudo graficar la matriz '{matriz_nombre}' porque no fue encontrada.")

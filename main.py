@@ -35,7 +35,8 @@ def menu_principal():
     4. Graficar gráfico de dispersión (CSV)
     5. Mostrar matrices disponibles (MAT)
     6. Graficar datos de una matriz (MAT)
-    7. Salir
+    7. Graficar datos de una matriz con ruido (MAT)
+    8. Salir
     """
     lector_csv = None
     lector_mat = None
@@ -80,6 +81,12 @@ def menu_principal():
                     raise ValueError("Primero debe cargar un archivo MAT.")
 
             elif opcion == "7":
+                if lector_mat is not None:
+                    lector_mat.graficar_ruido()
+                else:
+                    raise ValueError("Primero debe cargar un archivo MAT.")
+
+            elif opcion == "8":
                 print("Saliendo del programa...")
                 sys.exit()
 
