@@ -250,15 +250,15 @@ class Read_Mat:
 # lector.graficar_dispersion()
 
 
-# Crear una instancia de Read_Mat con la ruta del archivo .mat
-file_path = r'C:\Users\VICTUS\Desktop\UdeA\Cuarto Semestre\Informática 2\P2 repository\Parcial2_info2\S1.mat'
-read_mat = Read_Mat(file_path)
+# # Crear una instancia de Read_Mat con la ruta del archivo .mat
+# file_path = r'C:\Users\VICTUS\Desktop\UdeA\Cuarto Semestre\Informática 2\P2 repository\Parcial2_info2\S1.mat'
+# read_mat = Read_Mat(file_path)
 
-# Cargar el archivo .mat
-read_mat.load_mat()
+# # Cargar el archivo .mat
+# read_mat.load_mat()
 
-# Mostrar las matrices disponibles en el archivo
-read_mat.display_matrices()
+# # Mostrar las matrices disponibles en el archivo
+# read_mat.display_matrices()
 
-# Graficar los datos de la primera matriz disponible
-read_mat.graficar_todos()
+# # Graficar los datos de la primera matriz disponible
+# read_mat.graficar_todos()
